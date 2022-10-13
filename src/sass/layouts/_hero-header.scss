@@ -1,55 +1,48 @@
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
-
 .header {
   background-image: url(/src/images/Rectangle\ 2.jpg);
 }
-
 .header__logo {
   margin-right: 110px;
 }
-
 .header__container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  // justify-content: center;
   margin: 0 auto;
   width: 1280px;
   padding-top: 37px;
 }
-
 .nav__list {
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 35px;
 }
-
 .hero__container {
   display: flex;
   flex-direction: row;
 }
-
 .hero__item {
   display: flex;
   flex-direction: column;
   padding: 0px;
 }
-
 .nav__list-item {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
 }
-
 .header__button {
   margin-left: 110px;
   background: #ffffff;
   border-radius: 22px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -59,9 +52,8 @@ body {
   border: none;
   color: #d41443;
 }
-
 .hero__title {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -74,13 +66,11 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
 .hero__title-color {
   color: #d41443;
 }
-
 .hero__item-value {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 46px;
@@ -94,17 +84,16 @@ body {
   padding: 0px;
   color: #d41443;
 }
-
 .hero__item-name {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-align: right;
+
   color: #ffffff;
 }
-
 .hero__buttons {
   display: flex;
   flex-direction: row;
@@ -112,17 +101,16 @@ body {
   gap: 17px;
   margin-top: 25px;
 }
-
 .hero__button-item {
   width: 104px;
   height: 40px;
   background: #d41443;
   border-radius: 20px;
   border: none;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
-}/*# sourceMappingURL=main.css.map */
+}
