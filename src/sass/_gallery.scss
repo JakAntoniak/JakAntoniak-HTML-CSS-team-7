@@ -1,0 +1,13 @@
+.gallery {
+  background-image: linear-gradient(
+    to bottom,
+    $bottom-section-background 0%,
+    $bottom-section-background 45%,
+    $body-background 45%,
+    $body-background 100%
+  );
+  margin-bottom: 40px;
+  &__heading {
+    display: none;
+  }
+}
