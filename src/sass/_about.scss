@@ -1,0 +1,105 @@
+
+// Do usunięcia pózniej jak te opcje beda w calym pliku
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-color: #FFF5F6;
+    padding-top: 125px;
+    padding-bottom: 40px;
+
+    & > .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        
+        background-image:  url(../images/about-bg-480.png);
+        background-position: 0 90%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+
+    &__pre-header {
+        font-family: 'Titan One';
+        font-size: 18px;
+        line-height: calc(21/18);
+
+        text-transform: uppercase;
+
+        color: #FFA5BA;
+    }
+
+    &__header {
+        font-family: 'Titan One';
+        width: 200px;
+
+        font-size: 34px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+
+        color: #D41443;
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-family: 'DM Sans';
+        
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.62;
+
+        color: #000000; 
+        
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    &__details {
+        font-family: 'DM Sans';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.62;
+
+        color: #907E82;
+
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border: none;
+        width: 176px;
+        height: 44px;
+
+        background: #FFFFFF;
+        border-radius: 22px;
+
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #D41443;
+
+        &:hover {
+            background: #ECEBEB;
+        }
+    }
+
+    &__icon {
+        margin-left: 10px;
+    }
+}
