@@ -3,15 +3,18 @@
 $body-background: #e5e5e5;
 $pink: #ffb8ca;
 $dark-pink: #ffa5ba;
+$dark-pink-2: #FEA5BB;
 $white: #fff;
 $red-1: #d41443;
 $red-2: #d41342;
 $yellow: #f0d1a5;
 $green: #c2e297;
 $how-its-made-background: #fff5f6;
+$dark: #000000;
 $black: #212121;
 $grey: #907e82;
 $bottom-section-background: #fff5f6;
+$grey-border: #E1E1E1;
 
 //FONTS
 
@@ -24,10 +27,13 @@ $font-weight: (
   'bold': 700,
 );
 $font-size: (
+  'mini': 12px,
   'standard': 14px,
   'enlarged': 16px,
+  'smaller-header': 18px,
   'review-signature': 20px,
   'smaller-section-header': 30px,
+  'bigger-header': 34px,
   'hero-text': 38px,
   'hero-numbers': 46px,
   'section-header': 58px,
