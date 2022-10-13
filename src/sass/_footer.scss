@@ -1,0 +1,89 @@
+@media only screen and (max-width:767px) {
+    .footer {
+        background-color: $how-its-made-background;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0 auto;
+
+        &__grid {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 28.24px;
+            margin-top: 43px;
+            padding-right: 20.53px;
+        }
+
+        &__link:hover,
+        &__link:focus {
+            outline: none;
+        }
+
+        &__icon {
+            background-color: #FEA5BB;
+            border-radius: 50%;
+            fill: $white;
+
+            &:hover,
+            &:focus {
+                background-color: $red-1;
+            }
+        }
+
+        &__contact {
+            font-family: $standard-font;
+            font-style: normal;
+            font-weight: $font-weight('bold');
+            font-size: 12px;
+            line-height: 186%;
+            text-align: right;
+            color: #000000;
+            margin-right: 20px;
+            margin-top: 46px;
+
+            &__number {
+                text-decoration: none;
+                color: $red-1;
+            }
+        }
+
+        &__copyright {
+            border-top: 1px solid #E1E1E1;
+            margin-top: 43px;
+            min-height: 89px;
+
+            &__paragraph {
+                font-family: $standard-font;
+                font-weight: $font-weight('bold');
+                font-size: $font-size('standard');
+                line-height: 1.5;
+                text-align: center;
+                margin-top: 22px;
+                color: $grey;
+            }
+        }
+    }
+}
+@media screen and (max-width:767px) {
+    .heading--first {
+        font-family: $header-font;
+        font-size: 18px;
+        line-height: 1.167;
+        text-transform: uppercase;
+        color: $dark-pink;
+        padding-left: 22px;
+        margin-top: 113px;
+    }
+
+    .heading--sec {
+        font-family: $header-font;
+        font-size: 34px;
+        line-height: 1.147;
+        letter-spacing: $letter-spacing('standard');
+        text-transform: uppercase;
+        padding-left: 22px;
+        margin-top: 17px;
+        color: $red-1;
+    }
+}
