@@ -1,103 +1,101 @@
-
 // Do usunięcia pózniej jak te opcje beda w calym pliku
-@use "./variables";
+@use './variables';
 
 .about {
-    background-color: variables.$how-its-made-background;
-    padding-top: 125px;
-    padding-bottom: 40px;
+  background-color: variables.$how-its-made-background;
+  padding-top: 125px;
+  padding-bottom: 40px;
 
-    & > .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        
-        background-image:  url(../images/about-bg-480.png);
-        background-position: 0 90%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        
+  & > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    background-image: url(../images/about-bg-480.png);
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__pre-header {
+    font-family: variables.$header-font;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+
+    text-transform: uppercase;
+
+    color: variables.$dark-pink;
+  }
+
+  &__header {
+    font-family: variables.$header-font;
+    width: 200px;
+
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: variables.$red-1;
+
+    margin-bottom: 10px;
+  }
+
+  &__img {
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    font-family: variables.$standard-font;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+
+    color: #000000;
+
+    width: 220px;
+    margin-bottom: 20px;
+  }
+
+  &__details {
+    font-family: variables.$standard-font;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+
+    color: variables.$grey;
+
+    width: 220px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    border: none;
+    width: 176px;
+    height: 44px;
+
+    background: #ffffff;
+    border-radius: 22px;
+
+    font-family: variables.$standard-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: variables.$red-1;
+
+    &:hover {
+      background: #ecebeb;
     }
+  }
 
-    &__pre-header {
-        font-family: variables.$header-font;
-        font-size: 18px;
-        line-height: calc(21/18);
-
-        text-transform: uppercase;
-
-        color: variables.$dark-pink;
-    }
-
-    &__header {
-        font-family: variables.$header-font;
-        width: 200px;
-
-        font-size: 34px;
-        line-height: 39px;
-        text-align: center;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-
-        color: variables.$red-1;
-
-        margin-bottom: 10px;
-    }
-
-    &__img {
-        margin-bottom: 30px;
-    }
-
-    &__description {
-        font-family: variables.$standard-font;
-        
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 1.62;
-
-        color: #000000; 
-        
-        width: 220px;
-        margin-bottom: 20px;
-    }
-
-    &__details {
-        font-family: variables.$standard-font;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 1.62;
-
-        color: variables.$grey;
-
-        width: 220px;
-        margin-bottom: 20px;
-    }
-
-    &__button {
-        border: none;
-        width: 176px;
-        height: 44px;
-
-        background: #FFFFFF;
-        border-radius: 22px;
-
-        font-family: variables.$standard-font;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        color: variables.$red-1;
-
-        &:hover {
-            background: #ECEBEB;
-        }
-    }
-
-    &__icon {
-        margin-left: 10px;
-    }
+  &__icon {
+    margin-left: 10px;
+  }
 }

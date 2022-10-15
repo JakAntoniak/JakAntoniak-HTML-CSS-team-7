@@ -1,5 +1,4 @@
 //PRE SETTINGS
-@use "./variables";
 
 * {
   list-style-type: none;
@@ -16,11 +15,10 @@
 }
 
 body {
-  color: variables.$black;
-  font-family: variables.$standard-font;
-  font-size: map-get(variables.$font-size, standard);
+  color: $black;
+  font-family: $standard-font;
+  font-size: map-get($font-size, standard);
 }
-
 //RESPONSIVE SETTINGS
 
 .container {

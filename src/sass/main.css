@@ -1,20 +1,12 @@
-
 .about {
   background-color: #fff5f6;
   padding-top: 125px;
   padding-bottom: 40px;
 }
 .about > .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 15px;
   background-image: url(../images/about-bg-480.png);
   background-position: 0 90%;
@@ -26,7 +18,7 @@
   font-size: 18px;
   line-height: 1.1666666667;
   text-transform: uppercase;
-  color: #FFA5BA;
+  color: #ffa5ba;
 }
 .about__header {
   font-family: "Titan One", sans-serif;
@@ -37,6 +29,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
+  margin-bottom: 10px;
 }
 .about__img {
   margin-bottom: 30px;
@@ -69,15 +62,9 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #d41443;
 }
 .about__button:hover {
