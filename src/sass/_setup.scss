@@ -18,6 +18,8 @@ body {
   color: $black;
   font-family: $standard-font;
   font-size: map-get($font-size, standard);
+  display: flex;
+  flex-direction: column;
 }
 
 img {
