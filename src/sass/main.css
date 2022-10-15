@@ -35,9 +35,8 @@ body {
 }
 
 .header__logo {
-  width: 199px;
+  width: 100%;
   height: 50px;
-  margin-right: 61px;
 }
 
 .header__svg {
@@ -242,7 +241,6 @@ body {
   transition: transform 1s;
   z-index: 100;
   background-color: #e17992;
-  padding: 0px 23px;
 }
 
 .is-open {
@@ -259,21 +257,19 @@ body {
 .mobile__menu-button {
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: center;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  display: flex;
   border: none;
   color: #d41443;
-  width: 100%;
-  max-width: 209px;
+  width: 209px;
   height: 44px;
   background: #ffffff;
   border-radius: 22px;
+  margin-right: 0;
   margin-top: 60px;
 }
 
@@ -298,4 +294,14 @@ body {
   padding-bottom: 13px;
   border-top: 1px solid #e18298;
   border-bottom: 1px solid #e18298;
+}
+
+.mobile__list-color {
+  color: #d41443;
+}
+
+.mobile__menu-container {
+  width: 100%;
+  min-width: 250px;
+  padding: 0px 23px;
 }/*# sourceMappingURL=main.css.map */
