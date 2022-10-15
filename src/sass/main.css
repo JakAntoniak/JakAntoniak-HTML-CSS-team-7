@@ -61,7 +61,6 @@ img {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
   padding: 0 20px;
 }
 .reviews__list-item--hidden {
