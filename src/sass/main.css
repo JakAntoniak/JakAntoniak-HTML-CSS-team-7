@@ -78,7 +78,7 @@ body {
 }
 
 .products__overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   height: 0;
@@ -94,7 +94,7 @@ body {
 }
 
 .overlayshow {
-  width: 100%;
+  width: 249px;
   height: 485px;
   padding-top: 100px;
   transition: width 0.5s, padding-top 0.5s;
