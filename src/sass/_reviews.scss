@@ -22,7 +22,7 @@
       width: 100%;
       height: auto;
       content: '• • •';
-      bottom: 73px;
+      bottom: 100px;
       left: 0;
       color: $red-3;
       width: 100%;
@@ -41,7 +41,7 @@
 
   &__block {
     position: relative;
-    padding: 43px 66px 26px 57px;
+    padding: 43px 66px 20px 57px;
     background-color: $reviews-background;
     color: $black-2;
     font-weight: map-get($font-weight, medium);
