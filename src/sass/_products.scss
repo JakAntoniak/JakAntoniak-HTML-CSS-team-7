@@ -1,9 +1,11 @@
 .products {
   min-width: 320px;
-  width: 100%vw;
+  margin: 0 auto;
+  width: 100%;
   height: 100%;
-  padding: 0 20px;
+  padding: 0;
   position: absolute;
+  justify-content: center;
   margin-left: 50%;
   transform: translateX(-50%);
 
@@ -11,19 +13,20 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    transform: translateX(-50%);
-    margin-top: 98px;
+    justify-content: center;
     margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 85px;
     width: 200px;
     height: 36px;
 
     font-family: $header-font;
     font-style: normal;
-    font-weight: 'regular';
-    font-size: 34px;
+    font-weight: map-get($font-weight, regular);
+    font-size: map-get($font-size, products-header);
     line-height: 1.147;
     text-align: center;
-    letter-spacing: 'standard';
+    letter-spacing: map-get($letter-spacing, standard);
     text-transform: uppercase;
 
     color: $red-1;
@@ -34,23 +37,24 @@
     justify-content: center;
     content: '100% natural';
     margin-bottom: 15px;
-    margin-top: 121px;
-
     font-family: $header-font;
     font-style: normal;
-    font-weight: 'regular';
-    font-size: 18px;
+    font-weight: map-get($font-weight, regular);
+    font-size: map-get($font-size, products-before);
     line-height: 1.167;
     text-transform: uppercase;
 
-    color: #ffa5ba;
+    color: $dark-pink;
   }
 }
 
 .products__list {
-  margin-top: 337px;
+  margin-top: 216px;
+  // position: absolute;
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
+  justify-content: center;
   position: absolute;
   list-style: none;
   gap: 130px;
@@ -88,11 +92,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-width: 280px;
-  max-width: 320px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  width: 100%vw;
+  width: 100%;
   height: 485px;
   background: $pink;
   border-radius: 24px;
@@ -105,7 +105,9 @@
     top: -113px;
     left: 16px;
 
-    background: url(../images/icecream-mobile.png);
+    background-image: url(../images/icecream-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     z-index: 2;
   }
   &--image-vanilla {
@@ -119,7 +121,7 @@
     height: 252px;
     top: -113px;
 
-    background: url(../images/icecoffee-mobile.png);
+    background-image: url(../images/icecoffee-mobile.png);
     z-index: 2;
   }
   &--image-chocolate {
@@ -134,7 +136,7 @@
     height: 252px;
     top: -113px;
 
-    background: url(../images/milkshakes-mobile.png);
+    background-image: url(../images/milkshakes-mobile.png);
     z-index: 2;
   }
 }
@@ -149,13 +151,13 @@
   margin: 161px 53px 66px;
 
   font-family: $header-font;
-  font-size: ('review-signature', 'standard');
+  font-size: map-get($font-size, review-signature);
   font-style: normal;
-  font-weight: 'regular';
+  font-weight: map-get($font-weight, regular);
   line-height: 1.15;
 
   text-align: center;
-  letter-spacing: 'standard';
+  letter-spacing: map-get($letter-spacing, standard);
   text-transform: uppercase;
 
   color: $white;
@@ -180,11 +182,11 @@
     justify-content: center;
     margin: 20px 53px 25px;
     font-family: $header-font;
-    font-size: ('review-signature', 'standard');
-    font-weight: 'regular';
+    font-size: map-get($font-size, review-signature);
+    font-weight: map-get($font-weight, regular);
     text-transform: uppercase;
     color: $white;
-    letter-spacing: 0.1em;
+    letter-spacing: map-get($letter-spacing, links);
   }
 }
 
@@ -192,12 +194,12 @@
   margin: 25px 20px;
   font-family: $standard-font;
   font-style: normal;
-  font-weight: 'bold';
-  font-size: 'standard';
+  font-weight: map-get($font-weight, bold);
+  font-size: map-get($font-size, standard);
   line-height: 1.52;
 
   text-align: center;
-  letter-spacing: 'standard';
+  letter-spacing: map-get($letter-spacing, standard);
 
   color: $white;
 }
@@ -212,12 +214,12 @@
 
   font-family: $standard-font;
   font-style: normal;
-  font-weight: 'bold';
-  font-size: 'standard';
+  font-weight: map-get($font-weight, bold);
+  font-size: map-get($font-size, standard);
   line-height: 1.52;
 
   text-align: center;
-  letter-spacing: 'standard';
+  letter-spacing: map-get($letter-spacing, standard);
 
   color: $white;
   margin-bottom: 30px;
@@ -230,6 +232,8 @@
   border-radius: 50%;
   border: none;
   background-image: url(../images/arrow-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   margin-bottom: 40px;
   margin-left: 120px;
 
@@ -241,16 +245,14 @@
 }
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .products__card {
-    &::before {
-      background: url(../images/icecream-mobile@2x.png);
-    }
-    &--image-vanilla {
-      background: url(../images/icecoffee-mobile@2x.png);
-    }
-    &--image-chocolate {
-      background: url(../images/milkshakes-mobile@2x.png);
-    }
+  .products__card::before {
+    background-image: url(../images/icecream-mobile@2x.png);
+  }
+  .products__card--image-vanilla::before {
+    background-image: url(../images/icecoffee-mobile@2x.png);
+  }
+  .products__card--image-chocolate::before {
+    background-image: url(../images/milkshakes-mobile@2x.png);
   }
 
   .products__button {
