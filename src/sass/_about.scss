@@ -1,10 +1,7 @@
-// Do usunięcia pózniej jak te opcje beda w calym pliku
-@use './variables';
-
 .about {
-  background-color: variables.$how-its-made-background;
+  background-color: $how-its-made-background;
   padding-top: 125px;
-  padding-bottom: 40px;
+  padding-bottom: 39px;
 
   & > .container {
     display: flex;
@@ -19,17 +16,17 @@
   }
 
   &__pre-header {
-    font-family: variables.$header-font;
+    font-family: $header-font;
     font-size: 18px;
     line-height: calc(21 / 18);
 
     text-transform: uppercase;
 
-    color: variables.$dark-pink;
+    color: $dark-pink;
   }
 
   &__header {
-    font-family: variables.$header-font;
+    font-family: $header-font;
     width: 200px;
 
     font-size: 34px;
@@ -38,7 +35,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: variables.$red-1;
+    color: $red-1;
 
     margin-bottom: 10px;
   }
@@ -48,7 +45,7 @@
   }
 
   &__description {
-    font-family: variables.$standard-font;
+    font-family: $standard-font;
 
     font-weight: 500;
     font-size: 12px;
@@ -61,12 +58,12 @@
   }
 
   &__details {
-    font-family: variables.$standard-font;
+    font-family: $standard-font;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.62;
 
-    color: variables.$grey;
+    color: $grey;
 
     width: 220px;
     margin-bottom: 20px;
@@ -80,7 +77,7 @@
     background: #ffffff;
     border-radius: 22px;
 
-    font-family: variables.$standard-font;
+    font-family: $standard-font;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
@@ -88,7 +85,7 @@
     align-items: center;
     justify-content: center;
 
-    color: variables.$red-1;
+    color: $red-1;
 
     &:hover {
       background: #ecebeb;
