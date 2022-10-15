@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/JakAntoniak-HTML-CSS-team-7/JakAntoniak-HTML-CSS-team-7/src/images/quote.png":[["quote.8c356f85.png","tzR4"],"tzR4"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/JakAntoniak-HTML-CSS-team-7/src.39e0852a.js.map
+//# sourceMappingURL=/JakAntoniak-HTML-CSS-team-7/src.e5a94416.js.map
