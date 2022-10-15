@@ -12,6 +12,12 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #212121;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -24,7 +30,7 @@
   }
 }
 .contacts {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 .contacts__container {
   padding-top: 48px;
@@ -34,7 +40,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .contacts__container-inside {
   padding: 43px 20px;
@@ -51,7 +56,7 @@
   margin-bottom: 20px;
 }
 .contacts__header {
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
@@ -70,17 +75,17 @@
   margin-bottom: 20px;
 }
 .contacts__title-second {
+  color: #fff;
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   width: 130px;
   height: 16px;
-  color: #fff;
   background: #c2e297;
   border-radius: 4px;
   text-align: center;
   padding-bottom: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .contacts__city {
   font-weight: 500;
@@ -99,7 +104,7 @@
   margin-bottom: 22px;
 }
 .contacts__main {
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
@@ -156,7 +161,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 .contacts__btn:hover {
   box-shadow: 0 0 20px 1px #d41443;
@@ -171,9 +176,9 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 .contacts__btn-second:hover {
-  background-color: #ECEBEB;
+  background-color: #ecebeb;
   box-shadow: 0 0 20px 1px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
