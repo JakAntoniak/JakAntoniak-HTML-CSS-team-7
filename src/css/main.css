@@ -1,4 +1,35 @@
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: normal;
+}
 
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #212121;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
 .about {
   background-color: #fff5f6;
   padding-top: 125px;
@@ -98,7 +129,8 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
