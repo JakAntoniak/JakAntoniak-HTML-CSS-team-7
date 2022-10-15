@@ -34,8 +34,8 @@
         &-contact {
             font-family: $standard-font;
             font-style: normal;
-            font-weight: map-get($font-weight'bold');
-            font-size: map-get($font-size'mini');
+            font-weight: map-get($font-weight,'bold');
+            font-size: map-get($font-size,'small');
             line-height: 186%;
             text-align: right;
             color: $dark;
@@ -54,8 +54,8 @@
 
             &__paragraph--1 {
                 font-family: $standard-font;
-                font-weight: map-get($font-weight'bold');
-                font-size: map-get($font-size'standard');
+                font-weight: map-get($font-weight,'bold');
+                font-size: map-get($font-size,'standard');
                 line-height: 1.5;
                 text-align: center;
                 margin-top: 22px;
@@ -63,8 +63,8 @@
             }
             &__paragraph--2{
                 font-family: $standard-font;
-                font-weight: map-get($font-weight'bold');
-                font-size: map-get($font-size'standard');
+                font-weight: map-get($font-weight,'bold');
+                font-size: map-get($font-size,'standard');
                 line-height: 1.5;
                 text-align: center;
                 color: $grey;
@@ -75,7 +75,7 @@
 @media screen and (max-width:767px) {
     .heading-footer--first {
         font-family: $header-font;
-        font-size: map-get($font-size'smaller-header');
+        font-size: map-get($font-size,'smaller-header');
         line-height: 1.167;
         text-transform: uppercase;
         color: $dark-pink;
@@ -85,9 +85,9 @@
 
     .heading-footer--second {
         font-family: $header-font;
-        font-size: map-get($font-size'bigger-header');
+        font-size: map-get($font-size,'bigger-header');
         line-height: 1.147;
-        letter-spacing: map-get($letter-spacing'standard');
+        letter-spacing: map-get($letter-spacing,'standard');
         text-transform: uppercase;
         padding-left: 22px;
         margin-top: 17px;
