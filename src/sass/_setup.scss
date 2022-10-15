@@ -19,10 +19,12 @@ body {
   font-family: $standard-font;
   font-size: map-get($font-size, standard);
 }
+
 img {
   display: block;
   width: 100%;
 }
+
 //RESPONSIVE SETTINGS
 
 .container {
