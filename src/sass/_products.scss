@@ -4,6 +4,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
   }
 
   &__header {
@@ -69,7 +70,8 @@
 }
 
 .overlayshow {
-  height: 100%;
+  width: 100%;
+  height: 485px;
   padding-top: 100px;
   transition: width 0.5s, padding-top 0.5s;
 }
