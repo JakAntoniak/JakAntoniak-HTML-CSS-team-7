@@ -2,7 +2,8 @@
     font-family: 'DM Sans', sans-serif;
 
     &__container{
-        padding-top: 20px;
+        padding-top: 48px;
+        padding-bottom: 113px;
         background: $bottom-section-background;
         display: flex;
         flex-direction: column;
@@ -10,10 +11,7 @@
         align-items: center;
 
         &-inside{
-            padding-top: 35px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 42px;
+            padding: 43px 20px;
         }
     }
 
@@ -52,6 +50,7 @@
     }
 
     &__title-second{
+        color: $white;
         font-weight: 500;
         font-size: 12px;
         line-height: 186%;
@@ -69,9 +68,10 @@
         font-size: 12px;
         line-height: 186%;
         letter-spacing: 0.04em;
+        padding-bottom: 6px;
     }
 
-    &__describtion{
+    &__description{
         width: 179px;
         height: 36px;
         font-weight: 500;
@@ -110,7 +110,11 @@
     }
 
     &__bottom{
-        margin-bottom: 25px;
+        margin-bottom: 10px;
+
+        &-second{
+            margin-bottom: 25px;
+        }
     }
 
     &__contact{
