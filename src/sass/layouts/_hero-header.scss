@@ -29,8 +29,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  border: 1px solid black;
   height: 64px;
 }
 .header__logo {
@@ -225,9 +223,8 @@ body {
   height: 100%;
   transform: translateX(5000px);
   transition: transform 1s;
-  background-color: #ffffff;
   z-index: 100;
-  background-color: #ffb8ca;
+  background-color: #e17992;
   padding: 0px 23px;
 }
 .is-open {
@@ -258,4 +255,25 @@ body {
   background: #ffffff;
   border-radius: 22px;
   margin-top: 60px;
+}
+.mobile__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+}
+.mobile__list-item {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
 }
