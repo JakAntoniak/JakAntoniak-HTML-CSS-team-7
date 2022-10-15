@@ -29,7 +29,7 @@ $bottom-section-background: #fff5f6;
 $pink-shadow: rgba(212, 20, 67, 0.1);
 $button-hover: #ecebeb;
 $modal-color: #e17992;
-$icon-pink: #FEA5BB;
+$icon-pink: #fea5bb;
 
 //FONTS
 
@@ -42,12 +42,15 @@ $font-weight: (
   'bold': 700,
 );
 $font-size: (
+  'the-smallest': 8px,
   'small': 12px,
   'standard': 14px,
   'enlarged': 16px,
   'products-before': 18px,
   'review-signature': 20px,
   'smaller-section-header': 30px,
+  'title-section-header': 26px,
+  'title2-section-header': 47px,
   'products-header': 34px,
   'advantages-bold-mobile': 36px,
   'hero-text': 38px,
