@@ -39,8 +39,12 @@ img {
     margin: 0 auto;
   }
 }
+.background-gallery {
+  background-image: linear-gradient(to bottom, #fff5f6 0%, #fff5f6 40%, #fff 40%, #fff 100%);
+}
+
 .gallery {
-  background-image: linear-gradient(to bottom, #fff5f6 0%, #fff5f6 45%, #e5e5e5 45%, #e5e5e5 100%);
+  background-color: inherit;
   margin-bottom: 40px;
 }
 .gallery__heading {

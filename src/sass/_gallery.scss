@@ -1,11 +1,14 @@
-.gallery {
+.background-gallery {
   background-image: linear-gradient(
     to bottom,
     $bottom-section-background 0%,
-    $bottom-section-background 45%,
-    $body-background 45%,
+    $bottom-section-background 40%,
+    $body-background 40%,
     $body-background 100%
   );
+}
+.gallery {
+  background-color: inherit;
   margin-bottom: 40px;
   &__heading {
     display: none;
