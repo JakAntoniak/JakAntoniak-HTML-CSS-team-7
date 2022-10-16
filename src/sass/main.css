@@ -52,6 +52,7 @@ img {
 }
 
 .header__background {
+  background-image: url(../images/header-img-icecream.png), url(../images/header-img-elipse.png);
   background-repeat: no-repeat;
   background-size: 171px, 346px;
   background-position: top 92px left 117px, top 83px left 36px;
@@ -65,16 +66,18 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   height: 64px;
 }
 
 .header__logo {
-  width: 100%;
+  width: 199px;
   height: 50px;
 }
 
 .header__svg {
   display: flex;
+  align-items: center;
 }
 
 .nav__list {
@@ -267,10 +270,10 @@ img {
   position: fixed;
   align-content: center;
   justify-content: center;
-  left: 0px;
+  right: 0px;
   top: 0px;
-  width: 78%;
-  height: 100%;
+  width: 250px;
+  height: 502px;
   transform: translateX(5000px);
   transition: transform 3s;
   z-index: 100;
@@ -279,13 +282,13 @@ img {
 
 .is-open {
   display: block;
-  transform: translateX(50%);
+  transform: translateX(0%);
 }
 
 .mobile__menu-svg {
   position: absolute;
   top: 23px;
-  right: 23px;
+  left: 208px;
 }
 
 .mobile__menu-button {
@@ -305,6 +308,7 @@ img {
   border-radius: 22px;
   margin-right: 0;
   margin-top: 60px;
+  margin-bottom: 19px;
 }
 
 .mobile__list {
