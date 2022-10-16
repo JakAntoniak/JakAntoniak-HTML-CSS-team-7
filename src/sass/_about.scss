@@ -96,3 +96,18 @@
     margin-left: 10px;
   }
 }
+
+/*@media (min-width: 768px) {
+  .about {
+    &__img {
+      float:left;
+      width: 50%;
+      flex-direction: row;
+    }
+    &__description {
+      float:left;
+      width: 50%;
+      flex-direction: row;
+  }
+}
+}*/

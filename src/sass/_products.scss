@@ -248,3 +248,26 @@
     background-image: url(../images/arrow-right@2x.png);
   }
 }
+
+
+@media (min-width: 768px) {
+  .products__list {
+    flex-direction: row;
+    max-width: 1054px;
+    max-height: 735px;
+    gap: 24px;
+  }
+  .products {
+    &__header {
+      font-size: map-get($font-size, section-header);
+    }
+  }
+}
+
+/*@media (min-width: 768px) {
+  .products {
+    &__header {
+      font-size: map-get($font-size, section-header);
+    }
+  }
+}*/
