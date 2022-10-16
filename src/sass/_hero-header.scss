@@ -214,8 +214,8 @@
   top: 0px;
   width: 250px;
   height: 502px;
-  transform: translateX(5000px);
-  transition: transform 3s;
+  transform: translateX(2500px);
+  transition: transform 1.3s;
   z-index: 100;
   background-color: $modal-color;
 }
@@ -267,6 +267,7 @@
   padding-bottom: 13px;
   border-top: 1px solid #e18298;
   border-bottom: 1px solid #e18298;
+  list-style: none;
 }
 .mobile__list-color {
   color: $red-1;
