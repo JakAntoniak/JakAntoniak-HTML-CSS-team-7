@@ -6,6 +6,7 @@
 .header {
   background: $pink;
   width: 100%;
+  min-width: 320px;
   height: 502px;
   margin: 0 auto;
 }
@@ -212,16 +213,16 @@
   justify-content: center;
   left: 0px;
   top: 0px;
-  width: 100%;
+  width: 78%;
   height: 100%;
   transform: translateX(5000px);
-  transition: transform 1s;
+  transition: transform 3s;
   z-index: 100;
   background-color: $modal-color;
 }
 .is-open {
   display: block;
-  transform: translateX(0);
+  transform: translateX(50%);
 }
 .mobile__menu-svg {
   position: absolute;
@@ -256,7 +257,7 @@
 .mobile__list-item {
   font-family: $standard-font;
   font-style: normal;
-  font-weight: map-get() $font-weight, bold;
+  font-weight: map-get($font-weight, bold);
   font-size: map-get($font-size, standard);
   line-height: 18px;
   display: flex;
