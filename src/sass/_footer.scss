@@ -96,3 +96,6 @@
   display: block;
 }
 /* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
+@media screen and (min-width: 480px) and (max-width:767px) {
+  
+}
