@@ -24,7 +24,6 @@
     text-align: center;
     letter-spacing: map-get($letter-spacing, standard);
     text-transform: uppercase;
-
     color: $red-1;
   }
 
@@ -39,7 +38,6 @@
     font-size: map-get($font-size, products-before);
     line-height: 1.167;
     text-transform: uppercase;
-
     color: $dark-pink;
   }
 }

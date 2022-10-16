@@ -37,6 +37,10 @@ img {
     margin: 0 auto;
   }
 }
+.container {
+  padding: 0 20px;
+}
+
 .header {
   background: #ffb8ca;
   width: 100%;
@@ -73,6 +77,7 @@ img {
 .header__svg {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav__list {
@@ -268,10 +273,14 @@ img {
   top: 0px;
   width: 250px;
   height: 502px;
-  transform: translateX(5000px);
-  transition: transform 3s;
+  transform: translateX(3000px);
+  transition: transform 0.5s;
   z-index: 100;
   background-color: #e17992;
+}
+
+.js-close-menu {
+  cursor: pointer;
 }
 
 .is-open {
@@ -303,6 +312,7 @@ img {
   margin-right: 0;
   margin-top: 60px;
   margin-bottom: 19px;
+  cursor: pointer;
 }
 
 .mobile__list {
@@ -328,7 +338,10 @@ img {
   border-bottom: 1px solid #e18298;
 }
 
-.mobile__list-color {
+.mobile__list-item > a {
+  color: #fff;
+}
+.mobile__list-item > a:hover, .mobile__list-item > a:focus {
   color: #d41443;
 }
 
