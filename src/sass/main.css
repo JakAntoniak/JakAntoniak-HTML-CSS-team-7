@@ -37,12 +37,6 @@ img {
     margin: 0 auto;
   }
 }
-.container {
-  width: 320px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .header {
   background: #ffb8ca;
   width: 100%;
@@ -71,6 +65,7 @@ img {
 }
 
 .header__logo {
+  display: flex;
   width: 199px;
   height: 50px;
 }
@@ -266,7 +261,6 @@ img {
 }
 
 .js-menu-container {
-  display: none;
   position: fixed;
   align-content: center;
   justify-content: center;
