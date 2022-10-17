@@ -260,6 +260,23 @@ img {
   width: 80px;
 }
 
+.mobile__list-item {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
+  list-style: none;
+  list-style-type: none;
+}
+
 .js-menu-container {
   position: fixed;
   align-content: center;
@@ -268,8 +285,8 @@ img {
   top: 0px;
   width: 250px;
   height: 502px;
-  transform: translateX(5000px);
-  transition: transform 3s;
+  transform: translateX(2500px);
+  transition: transform 1.3s;
   z-index: 100;
   background-color: #e17992;
 }
@@ -311,21 +328,6 @@ img {
   justify-content: center;
   list-style: none;
   padding: 0px;
-}
-
-.mobile__list-item {
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  border-top: 1px solid #e18298;
-  border-bottom: 1px solid #e18298;
 }
 
 .mobile__list-color {
