@@ -38,6 +38,10 @@ img {
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
   .container {
     max-width: 767px;
   }
@@ -419,9 +423,11 @@ img {
     display: flex;
     flex-direction: row;
     gap: 17px;
+    margin-top: 50px;
+    align-items: flex-start;
   }
   .about__tablet--elements {
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .about__description, .about__details {
     width: 340px;
@@ -430,6 +436,9 @@ img {
   .about__img {
     width: 340px;
     height: 340px;
+  }
+  .about__button {
+    margin-top: 62px;
   }
 }
 .advantages {
@@ -498,6 +507,19 @@ img {
     background-image: url(../images/icon3@2x.png);
   }
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .advantages {
+    padding-top: 27px;
+    padding-bottom: 102px;
+  }
+  .advantages__list {
+    display: flex;
+    flex-direction: row;
+  }
+  .advantages__text--normal {
+    font-size: 14px;
+  }
+}
 .background-gallery {
   background-image: linear-gradient(to bottom, #fff5f6 0%, #fff5f6 40%, #fff 40%, #fff 100%);
 }
@@ -506,6 +528,11 @@ img {
   display: none;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .gallery {
+    margin-bottom: 121px;
+  }
+}
 .reviews {
   width: 100%;
   margin-top: 80px;
@@ -637,6 +664,31 @@ img {
   opacity: 1;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .reviews {
+    margin-top: 0;
+  }
+  .reviews__img {
+    width: 85px;
+  }
+  .reviews__block {
+    width: 620px;
+  }
+  .reviews__text {
+    font-size: 14px;
+    width: 460px;
+    margin-left: 23px;
+  }
+  .reviews__text-block {
+    width: 524px;
+  }
+  .reviews__user-name {
+    font-size: 16px;
+  }
+  .reviews__list-item::after {
+    letter-spacing: 2px;
+  }
+}
 .contacts {
   font-family: "DM Sans", sans-serif;
 }
@@ -793,6 +845,77 @@ img {
   box-shadow: 0 0 20px 1px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .contacts {
+    margin-top: 204px;
+  }
+  .contacts__container {
+    height: 590px;
+    position: relative;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .contacts__tablet--flex {
+    position: absolute;
+    top: -102px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contacts__section {
+    height: 544px;
+  }
+  .contacts__container-inside {
+    padding: 50px 32px 50px 31px;
+  }
+  .contacts__title, .contacts__title-second {
+    height: 28px;
+    font-size: 16px;
+  }
+  .contacts__header {
+    padding-bottom: 30px;
+  }
+  .contacts__city {
+    padding-bottom: 14px;
+    font-size: 16px;
+  }
+  .contacts__days {
+    width: 142px;
+    height: 24px;
+    font-size: 16px;
+  }
+  .contacts__description {
+    font-size: 14px;
+  }
+  .contacts__hours {
+    font-size: 14px;
+  }
+  .contacts__contact {
+    font-size: 14px;
+  }
+  .contacts__bottom-second {
+    margin-bottom: 30px;
+  }
+  .contacts__main {
+    margin-bottom: 30px;
+  }
+  .contacts__footer {
+    height: 48px;
+    line-height: 25.62px;
+  }
+  .contacts__nav {
+    position: absolute;
+    top: 468px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 14.5px;
+    margin-top: 41px;
+  }
+  .contacts__btn {
+    margin: 0;
+  }
+}
 .footer {
   background-color: #fff5f6;
   width: 100%;
@@ -880,4 +1003,39 @@ img {
   display: block;
 }
 
-/* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) *//*# sourceMappingURL=main.css.map */
+/* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .heading-gap {
+    font-size: 26px;
+  }
+  .heading-gap--passion {
+    font-size: 48px;
+  }
+  .heading-footer--first {
+    margin-top: 128px;
+    font-size: 26px;
+  }
+  .heading-footer--second {
+    font-size: 48px;
+  }
+  .footer {
+    position: relative;
+  }
+  .footer__grid {
+    position: absolute;
+    top: 128px;
+    right: 36px;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-contact {
+    position: absolute;
+    top: 208px;
+    right: 36px;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-copyright {
+    margin-top: 91px;
+  }
+}/*# sourceMappingURL=main.css.map */

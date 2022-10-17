@@ -136,6 +136,29 @@
     }
   }
 }
-@media screen and (min-width: 480px) and (max-width:767px) {
-  
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .reviews {
+    margin-top: 0;
+
+    &__img {
+      width: 85px;
+    }
+    &__block {
+      width: 620px;
+    }
+    &__text {
+      font-size: 14px;
+      width: 460px;
+      margin-left: 23px;
+    }
+    &__text-block {
+      width: 524px;
+    }
+    &__user-name {
+      font-size: 16px;
+    }
+    &__list-item::after {
+      letter-spacing: 2px;
+    }
+  }
 }

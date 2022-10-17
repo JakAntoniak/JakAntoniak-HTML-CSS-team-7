@@ -84,6 +84,16 @@
     background-image: url(../images/icon3@2x.png);
   }
 }
-@media screen and (min-width: 480px) and (max-width:767px) {
-  
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .advantages {
+    padding-top: 27px;
+    padding-bottom: 102px;
+    &__list {
+      display: flex;
+      flex-direction: row;
+    }
+    &__text--normal {
+      font-size: 14px;
+    }
+  }
 }

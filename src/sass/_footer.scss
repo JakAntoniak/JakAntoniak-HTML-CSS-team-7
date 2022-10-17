@@ -96,6 +96,40 @@
   display: block;
 }
 /* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
-@media screen and (min-width: 480px) and (max-width:767px) {
-  
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .heading-gap {
+    font-size: 26px;
+    &--passion {
+      font-size: 48px;
+    }
+  }
+  .heading-footer {
+    &--first {
+      margin-top: 128px;
+      font-size: 26px;
+    }
+    &--second {
+      font-size: 48px;
+    }
+  }
+  .footer {
+    position: relative;
+    &__grid {
+      position: absolute;
+      top: 128px;
+      right: 36px;
+      padding: 0;
+      margin: 0;
+    }
+    &-contact {
+      position: absolute;
+      top: 208px;
+      right: 36px;
+      padding: 0;
+      margin: 0;
+    }
+    &-copyright {
+      margin-top: 91px;
+    }
+  }
 }
