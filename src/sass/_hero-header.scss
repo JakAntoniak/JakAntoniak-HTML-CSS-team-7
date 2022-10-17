@@ -297,3 +297,37 @@
   min-width: 250px;
   padding: 0px 23px;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    width: 768px;
+    height: 399px;
+    &__background {
+      margin: 0;
+      width: 100%;
+      max-width: none;
+    }
+    &__container {
+      margin: 37px 0 0 14px;
+      width: 724px;
+    }
+    &__button {
+      display: block;
+    }
+    &__svg {
+      right: 201px;
+    }
+  }
+  .hero {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    &__container {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .js-menu-container {
+    width: 254px;
+    height: 1020px;
+  }
+}

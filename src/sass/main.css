@@ -36,6 +36,15 @@ img {
     margin: 0 auto;
   }
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 767px;
+  }
+}
 .container {
   padding: 0 20px;
 }
@@ -352,4 +361,39 @@ img {
   width: 100%;
   min-width: 250px;
   padding: 0px 23px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    width: 768px;
+    height: 399px;
+  }
+  .header__background {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+  .header__container {
+    margin: 37px 0 0 14px;
+    width: 724px;
+  }
+  .header__button {
+    display: block;
+  }
+  .header__svg {
+    right: 201px;
+  }
+  .hero {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+  }
+  .hero__container {
+    width: 100%;
+    padding: 0;
+  }
+  .js-menu-container {
+    width: 254px;
+    height: 1020px;
+  }
 }/*# sourceMappingURL=main.css.map */
