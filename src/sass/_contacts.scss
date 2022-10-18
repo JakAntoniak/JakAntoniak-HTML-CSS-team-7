@@ -173,3 +173,75 @@
     }
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .contacts {
+    margin-top: 204px;
+    &__container {
+      height: 590px;
+      position: relative;
+      flex-direction: column;
+      padding-top: 0px;
+    }
+    &__tablet--flex {
+      position: absolute;
+      top: -102px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    &__section {
+      height: 544px;
+    }
+    &__container-inside {
+      padding: 50px 32px 50px 31px;
+    }
+    &__title,
+    &__title-second {
+      height: 28px;
+      font-size: 16px;
+    }
+    &__header {
+      padding-bottom: 30px;
+    }
+    &__city {
+      padding-bottom: 14px;
+      font-size: 16px;
+    }
+    &__days {
+      width: 142px;
+      height: 24px;
+      font-size: 16px;
+    }
+    &__description {
+      font-size: 14px;
+    }
+    &__hours {
+      font-size: 14px;
+    }
+    &__contact {
+      font-size: 14px;
+    }
+    &__bottom-second {
+      margin-bottom: 30px;
+    }
+    &__main {
+      margin-bottom: 30px;
+    }
+    &__footer {
+      height: 48px;
+      line-height: 25.62px;
+    }
+    &__nav {
+      position: absolute;
+      top: 468px;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      gap: 14.5px;
+      margin-top: 41px;
+    }
+    &__btn {
+      margin: 0;
+    }
+  }
+}
