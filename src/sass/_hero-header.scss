@@ -9,13 +9,14 @@
   background-image: url(../images/header-img-icecream.png), url(../images/header-img-elipse.png);
   background-repeat: no-repeat;
   background-size: 171px, 346px;
-  background-position: top 92px left 117px, top 83px left 36px;
+  background-position: top 92px right 85px, top 83px right 0;
   width: 100%;
 
   margin: 0 auto;
   height: 502px;
 }
 .header__container {
+  max-width: none;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -92,10 +93,9 @@
 }
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   align-content: space-between;
-  margin: 0 auto;
   width: 100%;
   height: auto;
   max-width: 480px;
@@ -305,12 +305,11 @@
       background-image: url(../images/header-img-icecream.png), url(../images/slider-pic4.png),
         url(../images/header-img-elipse.png), url(../images/slider-pic5.png);
       background-size: 143px 324px, 168px 133px, 336px 322px, 124px 126px;
-      background-position: top 38px left 360px, top 229px left 550px, top 0px left 286px,
+      background-position: top 38px center, top 229px right 34px, top 0px center,
         top 210px left 40px;
     }
     &__container {
       margin: 37px 0 0 14px;
-      width: 724px;
     }
     &__button {
       display: block;
@@ -344,10 +343,12 @@
     }
     &__item {
       display: block;
+      width: 80px;
+      height: 116px;
       margin: 0;
       position: absolute;
       top: 0px;
-      left: 630px;
+      right: 34px;
       z-index: 1;
 
       &-value {
