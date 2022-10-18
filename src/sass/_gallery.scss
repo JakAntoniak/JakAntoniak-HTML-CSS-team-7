@@ -8,6 +8,7 @@
   );
 }
 .gallery {
+  max-width: none;
   padding: 0;
   &__heading {
     display: none;

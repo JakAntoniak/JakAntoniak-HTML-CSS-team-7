@@ -3,7 +3,9 @@
   width: 100%;
   height: 100%;
   padding: 0;
-
+  &__container {
+    max-width: none;
+  }
   &__grid {
     list-style: none;
     display: flex;
