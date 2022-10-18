@@ -84,10 +84,9 @@
     background-image: url(../images/icon3@2x.png);
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .advantages {
-    padding-top: 27px;
-    padding-bottom: 102px;
+    padding: 27px 0 102px 36px;
     &__list {
       display: flex;
       flex-direction: row;

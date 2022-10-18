@@ -96,7 +96,7 @@
   display: block;
 }
 /* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .heading-gap {
     font-size: 26px;
     &--passion {

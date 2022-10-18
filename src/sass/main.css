@@ -37,13 +37,14 @@ img {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   body {
+    max-width: 768px;
     margin: 0 auto;
-    overflow-x: hidden;
   }
   .container {
-    max-width: 767px;
+    max-width: 768px;
+    margin: 0 auto;
   }
 }
 .products__container {
@@ -283,7 +284,7 @@ img {
     background-image: url(../images/arrow-right@2x.png);
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .products__header {
     font-size: 48px;
   }
@@ -300,6 +301,7 @@ img {
   .products__card {
     width: 220px;
     height: 485px;
+    margin: 0;
   }
   .products__card::before {
     width: 220px;
@@ -404,7 +406,7 @@ img {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .about {
     margin-top: 112px;
   }
@@ -507,10 +509,9 @@ img {
     background-image: url(../images/icon3@2x.png);
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .advantages {
-    padding-top: 27px;
-    padding-bottom: 102px;
+    padding: 27px 0 102px 36px;
   }
   .advantages__list {
     display: flex;
@@ -528,7 +529,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .gallery {
     margin-bottom: 121px;
   }
@@ -664,7 +665,7 @@ img {
   opacity: 1;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .reviews {
     margin-top: 0;
   }
@@ -845,7 +846,7 @@ img {
   box-shadow: 0 0 20px 1px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts {
     margin-top: 204px;
   }
@@ -1004,7 +1005,7 @@ img {
 }
 
 /* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .heading-gap {
     font-size: 26px;
   }
