@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
     &--hidden {
       display: none;
     }
@@ -35,7 +34,7 @@
     display: none;
   }
   &__img {
-    width: 26.5%;
+    width: 85px;
     margin-bottom: 29px;
   }
 
