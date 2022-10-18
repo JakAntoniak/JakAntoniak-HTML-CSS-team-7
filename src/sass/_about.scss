@@ -108,17 +108,22 @@
 @media screen and (min-width: 768px) and (max-width: 1250px) {
   .about {
     margin-top: 112px;
+    display: flex;
     &__container {
       background-image: none;
     }
     &__pre-header {
       font-size: 30px;
       white-space: nowrap;
+      text-align: center;
+      margin-bottom: 15px;
     }
     &__header {
       font-size: 58px;
       width: 534px;
-      margin-top: 16px;
+      
+      text-align: center;
+      margin: 0 auto;
     }
     &__desktop-container {
       display: flex;
@@ -136,9 +141,9 @@
       font-size: 14px;
     }
     &__img {
-      width: 516px;
-      height: 516px;
-      margin-top: -100px;
+      width: 400px;
+      height: 400px;
+      margin-top: 0 auto;
     }
    
     &__button {
