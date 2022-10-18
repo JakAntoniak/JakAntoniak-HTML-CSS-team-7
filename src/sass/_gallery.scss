@@ -12,3 +12,12 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .gallery {
+    margin-bottom: 121px;
+  &__img {
+    min-width: 100%x;
+  }
+}
+}
