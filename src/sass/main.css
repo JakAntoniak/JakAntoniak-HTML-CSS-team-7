@@ -37,13 +37,16 @@ img {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   body {
-    max-width: 768px;
+    min-width: 768px;
+    max-width: 1279px;
     margin: 0 auto;
+    overflow-x: hidden;
   }
   .container {
-    max-width: 768px;
+    min-width: 768px;
+    max-width: 1279px;
     margin: 0 auto;
   }
 }
@@ -284,7 +287,7 @@ img {
     background-image: url(../images/arrow-right@2x.png);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .products__header {
     font-size: 48px;
   }
@@ -406,7 +409,7 @@ img {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .about {
     margin-top: 112px;
   }
@@ -509,7 +512,7 @@ img {
     background-image: url(../images/icon3@2x.png);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .advantages {
     padding: 27px 0 102px 36px;
   }
@@ -529,7 +532,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .gallery {
     margin-bottom: 121px;
   }
@@ -665,7 +668,7 @@ img {
   opacity: 1;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .reviews {
     margin-top: 0;
   }
@@ -846,7 +849,7 @@ img {
   box-shadow: 0 0 20px 1px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .contacts {
     margin-top: 204px;
   }
@@ -1005,7 +1008,7 @@ img {
 }
 
 /* heading gap mozna wyłączyć w innych wersjach np. desktop (z br byłby problem) */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .heading-gap {
     font-size: 26px;
   }
