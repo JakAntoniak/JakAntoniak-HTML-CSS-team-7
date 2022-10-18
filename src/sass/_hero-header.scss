@@ -190,7 +190,8 @@
   margin-right: 115px;
 }
 
-.hero__item-value {
+.hero__item-value,
+.hero__item-value-second {
   font-family: $header-font;
   font-style: normal;
   font-weight: map-get($font-weight, regular);
@@ -296,4 +297,102 @@
   width: 100%;
   min-width: 250px;
   padding: 0px 23px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    height: 399px;
+    &__background {
+      margin: 0;
+      max-width: none;
+      background-image: url(../images/header-img-icecream.png), url(../images/slider-pic4.png),
+        url(../images/header-img-elipse.png), url(../images/slider-pic5.png);
+      background-size: 143px 324px, 168px 133px, 336px 322px, 124px 126px;
+      background-position: top 38px left 360px, top 229px left 550px, top 0px left 286px,
+        top 210px left 40px;
+    }
+    &__container {
+      margin: 37px 0 0 14px;
+      width: 724px;
+    }
+    &__button {
+      display: block;
+    }
+    &__svg {
+      right: 201px;
+    }
+  }
+  .hero {
+    position: relative;
+    margin: 0;
+    max-width: none;
+    &__container {
+      padding: 0;
+    }
+    &__title {
+      margin: 5px 0 0 34px;
+      font-size: 22px;
+      &-color {
+        font-size: 34px;
+      }
+    }
+    &__buttons {
+      margin: 6px 0 0 34px;
+    }
+    &__label {
+      width: 114px;
+      font-size: 8px;
+      margin: 46px 0 0 154px;
+      display: block;
+    }
+    &__item {
+      display: block;
+      margin: 0;
+      position: absolute;
+      top: 0px;
+      left: 630px;
+      z-index: 1;
+
+      &-value {
+        font-size: 28px;
+        height: 40px;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 6px;
+          left: 72px;
+          border-width: 8px;
+          border-style: solid;
+          border-radius: 50%;
+          border-color: #ffffff;
+          background-color: #ffffff;
+          z-index: -1;
+        }
+        &-second {
+          height: 40px;
+          font-size: 28px;
+          &::after {
+            content: '';
+            position: absolute;
+            top: 66px;
+            left: 72px;
+            border-width: 8px;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: #ffffff;
+            background-color: #ffffff;
+            z-index: -1;
+          }
+        }
+      }
+      &-name {
+        font-size: 8px;
+      }
+    }
+  }
+  .js-menu-container {
+    width: 254px;
+    height: 1020px;
+  }
 }
