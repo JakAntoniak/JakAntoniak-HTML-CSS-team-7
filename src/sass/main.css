@@ -376,7 +376,7 @@ img {
     background-position: top 38px center, top 229px right 34px, top 0px center, top 210px left 40px;
   }
   .header__container {
-    margin: 37px 0 0 14px;
+    margin: 37px 14px 0 14px;
   }
   .header__button {
     display: block;
@@ -936,6 +936,9 @@ img {
   background-image: linear-gradient(to bottom, #fff5f6 0%, #fff5f6 40%, #fff 40%, #fff 100%);
 }
 
+.gallery {
+  padding: 0;
+}
 .gallery__heading {
   display: none;
 }
