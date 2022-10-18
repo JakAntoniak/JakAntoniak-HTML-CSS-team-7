@@ -2,7 +2,7 @@
   <div class="header__background">
     <section class="header__container container">
       <a class="header__logo" href="./index.html"
-        ><img src="../src/images/logo.png" alt="Website logo"
+        ><img src="../src/images/logo.png" srcset="../src/images/logo@2x.png" alt="Website logo"
       /></a>
       <div>
         <svg
@@ -20,7 +20,7 @@
       </div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__list-item nav__list-color"><a href="#home">Home</a></li>
+          <li class="nav__list-item"><a href="#home">Home</a></li>
           <li class="nav__list-item"><a href="#about">About us</a></li>
           <li class="nav__list-item"><a href="#how-it's-made">How it's made?</a></li>
           <li class="nav__list-item"><a href="#products">Our products</a></li>
@@ -37,14 +37,17 @@
           ICE CREAM MADE WITH <span class="hero__title-color">PASSION</span>
         </h2>
         <div class="hero__buttons">
-          <button class="hero__button" type="button">Products</button>
-          <button class="hero__button hero__button-color" type="button">How it's made?</button>
+          <button class="hero__button" type="button"><a href="#products">Products</a></button>
+          <button class="hero__button hero__button-color" type="button">
+            <a href="#how-it's-made">How it's made?</a>
+          </button>
         </div>
         <div>
           <p class="hero__label">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et
           </p>
+          <a href="#about" class="hero__label-button" type="button"></a>
         </div>
       </div>
       <div class="hero__item">
@@ -53,7 +56,7 @@
           <p class="hero__item-name">cafes</p>
         </div>
         <div>
-          <p class="hero__item-value">23</p>
+          <p class="hero__item-value-second">23</p>
           <p class="hero__item-name">food trucks</p>
         </div>
       </div>
