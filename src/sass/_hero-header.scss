@@ -176,7 +176,24 @@
   width: 200px;
   height: 78px;
 }
+.hero__label-button {
+  display: flex;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/arrow-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 
+  cursor: pointer;
+  &:hover {
+    border: 2px solid $red-1;
+    color: $red-1;
+  }
+  display: none;
+}
 .hero__item {
   display: flex;
   display: none;
@@ -341,6 +358,12 @@
       font-size: 8px;
       margin: 46px 0 0 154px;
       display: block;
+    }
+    &__label-button {
+      display: block;
+
+      bottom: 0;
+      left: 154px;
     }
     &__item {
       display: block;
@@ -528,14 +551,19 @@
 
     &__label {
       margin: 0;
-      // position: absolute;
-      margin-top: 177px;
-      margin-left: 180px;
+      position: absolute;
+      bottom: 102px;
+      left: 225px;
       width: 200px;
       font-size: map-get($font-size, standard);
       display: block;
     }
+    &__label-button {
+      display: block;
 
+      bottom: 56px;
+      left: 225px;
+    }
     &__item {
       display: flex;
       margin: 0;

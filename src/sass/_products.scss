@@ -74,7 +74,7 @@
 .overlayshow {
   padding-top: 100px;
   transition: width 0.5s, padding-top 0.5s;
-  height: 495px;
+  height: 100%;
 }
 
 .products__button {
@@ -254,6 +254,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .overlayshow {
+    padding-top: 5px !important;
+  }
   .products {
     &__header {
       font-size: 48px;
@@ -295,6 +298,7 @@
     }
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products {
     &__header {
@@ -340,4 +344,7 @@
       margin-left: 144px;
     }
   }
+}
+.overlayshow {
+  padding-top: 100px;
 }

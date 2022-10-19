@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', function (e) {
+document.querySelector('.products__button').addEventListener('click', function (e) {
   document.querySelector('.products__overlay').classList.toggle('overlayshow');
 });
 
