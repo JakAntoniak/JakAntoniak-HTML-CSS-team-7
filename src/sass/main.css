@@ -318,7 +318,7 @@ img {
   right: 0px;
   top: 0px;
   width: 250px;
-  height: 502px;
+  height: 100%;
   transform: translateX(3000px);
   transition: transform 0.5s;
   z-index: 100;
@@ -494,8 +494,9 @@ img {
     font-size: 8px;
   }
   .js-menu-container {
+    position: fixed;
     width: 254px;
-    height: 1020px;
+    height: 100%;
   }
 }
 @media screen and (min-width: 1280px) {
