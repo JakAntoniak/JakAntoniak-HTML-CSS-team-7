@@ -1049,7 +1049,7 @@ img {
 }
 
 .gallery {
-  max-width: none;
+  max-width: 1280px;
   padding: 0;
 }
 .gallery__heading {
@@ -1059,6 +1059,11 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .gallery {
     margin-bottom: 121px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gallery {
+    max-width: 1280px;
   }
 }
 .reviews {
@@ -1694,12 +1699,13 @@ img {
   .heading-footer--second {
     font-size: 58px;
   }
-  .footer {
+  .footer__container {
+    max-width: 1280px;
     position: relative;
   }
   .footer__grid {
     position: absolute;
-    top: 128px;
+    top: 0;
     right: 121px;
     padding: 0;
     margin: 0;
@@ -1707,7 +1713,7 @@ img {
   .footer-contact {
     position: absolute;
     font-size: 16px;
-    top: 208px;
+    top: 84px;
     right: 116px;
     padding: 0;
     margin: 0;

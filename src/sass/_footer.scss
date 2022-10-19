@@ -153,10 +153,13 @@
     }
   }
   .footer {
-    position: relative;
+    &__container {
+      max-width: 1280px;
+      position: relative;
+    }
     &__grid {
       position: absolute;
-      top: 128px;
+      top: 0;
       right: 121px;
       padding: 0;
       margin: 0;
@@ -164,7 +167,7 @@
     &-contact {
       position: absolute;
       font-size: 16px;
-      top: 208px;
+      top: 84px;
       right: 116px;
       padding: 0;
       margin: 0;
