@@ -295,3 +295,49 @@
     }
   }
 }
+@media screen and (min-width: 1280px) {
+  .products {
+    &__header {
+      font-size: 58px;
+      margin-bottom: 109px;
+      &::before {
+        font-size: 30px;
+      }
+    }
+    &__list {
+      flex-direction: row;
+      gap: 29px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__card {
+      width: 329px;
+      height: 525px;
+      margin: 0;
+      &::before {
+        width: 335px;
+        height: 335px;
+        top: -200px;
+        left: 2px;
+      }
+    }
+    &__title {
+      font-size: 30px;
+      margin: 0 auto;
+      margin-top: 163px;
+      margin-bottom: 66px;
+    }
+    &__field {
+      &--mobile {
+        display: none;
+      }
+      &--tablet {
+        display: flex;
+      }
+    }
+    &__button {
+      margin-left: 144px;
+    }
+  }
+}

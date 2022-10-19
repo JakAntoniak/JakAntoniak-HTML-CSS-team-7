@@ -96,3 +96,18 @@
     }
   }
 }
+@media screen and (min-width: 1280px) {
+  .advantages {
+    padding: 27px 0 102px 36px;
+    &__list {
+      display: flex;
+      flex-direction: row;
+    }
+    &__text--normal {
+      font-size: 16px;
+    }
+    &__text--bold {
+      font-size: 58px;
+    }
+  }
+}

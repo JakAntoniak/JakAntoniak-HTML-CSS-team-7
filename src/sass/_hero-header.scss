@@ -28,6 +28,7 @@
   display: flex;
   width: 199px;
   height: 50px;
+  margin-left: 20px;
 }
 .header__svg {
   position: absolute;
@@ -391,5 +392,217 @@
   .js-menu-container {
     width: 254px;
     height: 1020px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    height: 665px;
+    position: relative;
+    display: flex;
+    &__background {
+      margin: 0;
+      max-width: none;
+      height: 100%;
+      position: absolute;
+      background-image: url(../images/header-img-icecream.png), url(../images/slider-pic4.png),
+        url(../images/header-img-elipse.png), url(../images/slider-pic5.png);
+      background-size: 236px 557px, 293px 232px, 538px 538px, 188px 191px;
+      background-position: top 108px left 594px, top 433px right 115px, top 52px left 475px,
+        top 429px left 77px;
+    }
+    &__container {
+      height: 50px;
+      margin: 37px 0;
+      max-width: none;
+      display: flex;
+      position: relative;
+    }
+
+    &__svg {
+      display: none;
+    }
+  }
+
+  .header__logo {
+    position: absolute;
+    left: 46px;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 35px;
+    padding: 0px;
+  }
+  .nav__list-item {
+    font-size: map-get($font-size, enlarged);
+    line-height: 1.3em;
+    text-decoration: none;
+  }
+
+  .nav__list-item > a {
+    color: $white;
+    &:hover {
+      color: $red-3;
+    }
+  }
+
+  .header__button {
+    display: flex;
+    position: absolute;
+    right: 115px;
+  }
+  .header__button-item {
+    width: 159px;
+    height: 44px;
+    line-height: 1.3em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero {
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 84px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+      height: 494px;
+      margin: 0 auto;
+      max-width: none;
+      display: flex;
+      position: relative;
+    }
+    &__title {
+      margin: 0;
+      // position: absolute;
+      display: flex;
+      flex-direction: column;
+      // top: 0px;
+      left: 115px;
+      width: 277px;
+      height: 137px;
+      font-size: map-get($font-size, hero-text);
+      line-height: 1.145em;
+
+      &-color {
+        font-size: map-get($font-size, section-header);
+        line-height: 0.905em;
+        margin-bottom: 25px;
+      }
+    }
+    &__buttons {
+      margin: 0;
+      display: flex;
+      justify-content: start;
+      margin-top: 163px;
+      position: absolute;
+    }
+
+    &__button {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      // position: absolute;
+      text-decoration: none;
+      background: $red-1;
+      font-size: map-get($font-size, standard);
+      line-height: 1.28em;
+    }
+
+    &__button-color {
+      background: $white;
+    }
+
+    &__label {
+      margin: 0;
+      // position: absolute;
+      margin-top: 177px;
+      margin-left: 180px;
+      width: 200px;
+      font-size: map-get($font-size, standard);
+      display: block;
+    }
+
+    &__item {
+      display: flex;
+      margin: 0;
+      width: 59px;
+      height: 53px;
+      position: absolute;
+      top: 0px;
+      right: 97px;
+      z-index: 1;
+
+      &-value {
+        font-size: map-get($font-size, hero-numbers);
+        line-height: 1.145em;
+        display: flex;
+        &::after {
+          content: '';
+          position: absolute;
+          display: flex;
+          top: -4px;
+          right: -15px;
+          width: 30px;
+          height: 30px;
+          border-style: solid;
+          border-radius: 50%;
+          border-color: $white;
+          background-color: $white;
+          z-index: -1;
+        }
+        &-second {
+          display: flex;
+          font-family: $header-font;
+          font-style: normal;
+          font-weight: map-get($font-weight, regular);
+          text-align: right;
+          letter-spacing: map-get($letter-spacing, standard);
+          text-transform: uppercase;
+          margin: 0px;
+          padding: 0px;
+          color: $red-1;
+          font-size: map-get($font-size, hero-numbers);
+          line-height: 1.145em;
+          margin-top: 20px;
+
+          &::after {
+            content: '';
+            position: absolute;
+            display: flex;
+            top: 86px;
+            right: -15px;
+            width: 30px;
+            height: 30px;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: $white;
+            background-color: $white;
+            z-index: -1;
+          }
+        }
+      }
+      &-name {
+        font-size: map-get($font-size, standard);
+        line-height: 1.3em;
+        // position: absolute;
+        right: 115px;
+        // display: flex;
+        // align-content: flex-end;
+      }
+    }
   }
 }
