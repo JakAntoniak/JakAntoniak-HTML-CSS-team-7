@@ -135,3 +135,52 @@
     }
   }
 }
+@media screen and (min-width: 1280px) {
+  .heading-gap {
+    display: inline;
+    font-size: 30px;
+    &--passion {
+      font-size: 58px;
+    }
+  }
+  .heading-footer {
+    &--first {
+      margin-top: 10;
+      font-size: 30px;
+    }
+    &--second {
+      font-size: 58px;
+    }
+  }
+  .footer {
+    position: relative;
+    &__grid {
+      position: absolute;
+      top: 128px;
+      right: 121px;
+      padding: 0;
+      margin: 0;
+    }
+    &-contact {
+      position: absolute;
+      font-size: 16px;
+      top: 208px;
+      right: 116px;
+      padding: 0;
+      margin: 0;
+      &__number {
+        font-size: 16px;
+      }
+    }
+    &-copyright {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 91px;
+      &__paragraph--1 {
+        margin-top: 0;
+      }
+    }
+  }
+}
